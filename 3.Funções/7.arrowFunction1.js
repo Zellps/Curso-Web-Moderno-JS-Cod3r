@@ -6,7 +6,7 @@ dobro = (a) => {
     return 2 * a
 }
 
-dobro = a => 2 * a  // return imnplícito
+dobro = a => 2 * a  // return imnplícito - usar esse modo qd tem apenas um parâmetro pra passar.
 console.log(dobro(Math.PI))
 
 //----------------
