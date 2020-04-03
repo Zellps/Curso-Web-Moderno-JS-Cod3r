@@ -4,7 +4,7 @@
  processamento(valor1,valor2, valor3)  // funções q manipulam dados
 
 
- // OO
+ // OO - o objeto funciona como uma capsula
  objeto = {
      valor1,
      valor2,
