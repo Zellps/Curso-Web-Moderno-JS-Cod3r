@@ -22,7 +22,7 @@ const pessoa = {
 }
 pessoa.falar()
 
-//segunda forma de usar uma função anônomia sem usar a palavra function
+//segunda forma de usar uma função anônima sem usar a palavra function
 
 const pessoa2 = {
     gritar() {
