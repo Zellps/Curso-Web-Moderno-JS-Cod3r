@@ -1,10 +1,10 @@
 class Pessoa {
     constructor(nome) {
-        this.nome = nome
+        this.nome = nome   // colocando this o objeto pode ser acessado fora dessa função
     }
 
     falar() {
-        console.log(`Meu nome é ${this.nome}`)
+        console.log(`Meu nome é ${this.nome}`)  //usa-se o this pra chamar o objeto.
     }
 }
 
