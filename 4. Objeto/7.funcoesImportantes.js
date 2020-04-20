@@ -29,11 +29,11 @@ console.log(Object.keys(pessoa)) // ela aparece aqui pq é "enumerable"
 // Object.assign (ECMAScript 2015)
 
 const dest = { a: 1 }
-// const 01 = {b: 2}
-// const 02 = {c: 3, a: 4}
-const obj = Object.assign(dest, 01, 02) // assign pega todos os atributos dos objetos e joga dentro do objeto destino
+const o1 = { b: 2 }
+const o2 = { c: 3, a: 4 }
+const obj = Object.assign(dest, o1, o2) // assign pega todos os atributos dos objetos e joga dentro do objeto destino
 // o a vai ser sobrescrito de 1 pra 4.
 
-Object.freeze(obj)
+Object.freeze(obj) // com esse freeze o item c do objeto obj não vai ser alterado para 1234
 obj.c = 1234
 console.log(obj)
