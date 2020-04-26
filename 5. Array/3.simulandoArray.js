@@ -7,4 +7,6 @@ Object.defineProperty(quaseArray, 'toString', {
     enumerable: false
 })
 
-console.log(quaseArray[0])
+console.log(quaseArray[0])  //como os atributos do quaseArray são numéricos, vc pode acessar os elementos do objeto de forma numérica como se fosse um array.
+
+
