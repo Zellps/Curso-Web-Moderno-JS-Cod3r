@@ -10,3 +10,5 @@ Object.defineProperty(quaseArray, 'toString', {
 console.log(quaseArray[0])  //como os atributos do quaseArray são numéricos, vc pode acessar os elementos do objeto de forma numérica como se fosse um array.
 
 
+const meuArray = ['Rafael', 'Ana', 'Bia']
+console.log(quaseArray.toString(), meuArray)
